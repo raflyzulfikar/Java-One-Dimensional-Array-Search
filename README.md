@@ -1,26 +1,29 @@
 # Java Exercise: Value Lookup in a One-Dimensional Array
+
 ## Project Description
    This project is a simple Java program designed to find the presence of a particular value in a specified one-dimensional array. The program prompts the user to     enter the value to search for. If the value is found in the array, the program will display the index of its first occurrence. If the value is not found, the       program will notify the user that the value is not in the array.
+*(Please note: Some parts of the codebase, including variable names, are written in Indonesian for clarity among local developers).*
 ## Functionality
    * Defines a one-dimensional integer array with initial values.
    * Displays the contents of the array to the user.
    * Accepts target value input from the user.
    * Performs an iteration (loop) to check each element of the array.
    * Displays the first index if the value is found.
-   * Displays a “not found” message if the value does not exist in the array.
+   * Displays a “tidak ditemukan” message if the value does not exist in the array.
 ## How it Works
    1.	The program initializes an array `int[] array = {5, 10, 15, 20, 25};`.
    2.	The user is prompted to enter the value to search for.
    3.	The program searches for the value in the array.
    4.	If the value is found, the program stops the search and displays the index.
-   5.	If the loop completes and the value is not found, a “not found” message will be displayed.
-*(Notes: It is recommended to put the `Even.java` file inside the `src/` folder.)*
+   5.	If the loop completes and the value is not found, a “tidak ditemukan” message will be displayed.
 ## Project Structure
 The project consists of a single Java file:
+```
 . 
 └── src/ 
     └── GanjilGenap.java 
 └── README.md
+```
 ## Usage Example (Console Output)
    **Scenario 1: Value Found**
    Array: 5 10 15 20 25 
